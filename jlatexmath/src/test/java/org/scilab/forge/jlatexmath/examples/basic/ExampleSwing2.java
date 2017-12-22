@@ -13,11 +13,11 @@ import org.scilab.forge.jlatexmath.TeXIcon;
 public class ExampleSwing2 {
 	public static void main(String[] args)
 	{
-        String latex = "\\text{hello world}";
+        String latex = "\\text{hello 啊快点回家看\nssdsfds}";
 		TeXFormula formula = new TeXFormula(latex);
 		TeXIcon icon = formula.new TeXIconBuilder().setStyle(TeXConstants.STYLE_DISPLAY)
 				.setSize(16)
-				.setWidth(TeXConstants.UNIT_PIXEL, 256f, TeXConstants.ALIGN_CENTER)
+				.setWidth(TeXConstants.UNIT_PIXEL, 256f, TeXConstants.ALIGN_BOTTOM)
 				.setIsMaxWidth(true).setInterLineSpacing(TeXConstants.UNIT_PIXEL, 20f)
 				.build();
 		

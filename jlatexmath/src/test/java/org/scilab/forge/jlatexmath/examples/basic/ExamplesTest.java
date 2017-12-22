@@ -93,6 +93,12 @@ public class ExamplesTest {
         check("Example6.png");
     }
 
+//    @Test
+//    public void testExample7() throws IOException {
+//        Example7.main(new String[0]);
+//        check("Example7.png");
+//    }
+
     @Test
     public void testExample8() throws IOException {
         Example8.main(new String[0]);
